@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 5px;
+  background-color: rgb(192, 240, 241);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.counter {
+  font-weight: 700;
+  font-size: 64px;
+  color: #102a42;
+}
+
+.display {
+  font-weight: 700;
+  font-size: 96px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0 10px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 0 0;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+
+.button:first-child {
+  margin: 0;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.button:active {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+#red {
+  color: red;
+}
+
+#green {
+  color: green;
+}
